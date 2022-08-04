@@ -103,7 +103,7 @@ input[type='text']{
   padding: 10px;
 }
 .hero-img{
-  width: 160%;
+  width: 120%;
 }
 .slider-circle{
   border: 1px solid #42c366;
@@ -155,7 +155,8 @@ input[type='text']{
 
 @media only screen and (max-width: 768px) {
   #hero{
-    background-color:#d5eddf;
+    background-color:#d5eddf !important;
+    background-image:none;
   }
   .display-4{
     font-size: 1.5rem;
@@ -181,6 +182,13 @@ input[type='text']{
   .nav{
     display: none;
   }
+  .ask{
+    display: none;
+  }
+  .ask-q{
+    display:block !important ;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px){
@@ -208,4 +216,8 @@ input[type='text']{
     /* height: 100vh; */
     background-color:#d5eddf;
   }
+
+}
+.ask-q{
+  display: none;
 }
