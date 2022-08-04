@@ -133,7 +133,7 @@ input[type='text']{
   }
   .hero-img{
     margin: 35px;
-    width: 120%;
+    width: 100%;
   }
   .ask > h1{
     font-size: 25px;
